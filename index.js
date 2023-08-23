@@ -1,3 +1,13 @@
+function mainLine() {
+for (var a=0; a < 200; a++) {
+console.log(a);
+  LHS()
+  }
+}
+//program start
+mainLine()
+
+
 function L(){
   console.log("L");
   console.log("L");
@@ -51,11 +61,3 @@ function LHS() {
   space();
 }
 
-function mainLine() {
-for (var a=0; a < 200; a++) {
-console.log(a);
-  LHS()
-  }
-}
-
-mainLine()
